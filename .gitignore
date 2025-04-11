@@ -1,0 +1,66 @@
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+.eggs/
+pip-wheel-metadata/
+*.log
+
+# Virtual environments
+venv/
+env/
+ENV/
+myvenv/
+
+# Django
+*.sqlite3
+db.sqlite3
+*.pyc
+*.pyo
+*.pyd
+*.coverage
+coverage/
+htmlcov/
+.mypy_cache/
+django_debug.log
+
+# Environment variables
+.env
+.env.*
+
+# === ANGULAR ===
+node_modules/
+dist/
+tmp/
+out-tsc/
+.angular/
+package-lock.json
+npm-debug.log
+
+# === VS CODE ===
+.vscode/
+.history/
+
+# === SYSTEM FILES ===
+.DS_Store
+Thumbs.db
+
+# === MONGO DB ===
+dump/
+*.bson
+*.json
+*.lock
+
+# === GENERAL ===
+*.swp
+*.swo
+*.bak
+*.orig
+
+# === CUSTOM ===
+
